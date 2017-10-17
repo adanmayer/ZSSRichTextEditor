@@ -227,4 +227,11 @@ static NSString * const ZSSRichTextEditorToolbarFonts = @"com.zedsaid.toolbarite
  */
 - (void)setCSS:(NSString *)css;
 
+/**
+ *  Set editable
+ */
+- (void) setEditable: (BOOL) editable;
+- (void) updateToolbarFrame;
+- (void) dismissKeyboard;
+
 @end
